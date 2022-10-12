@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+};
+
+header {
+  background-color: aqua;
+}
+
+header nav {
+  width: 960px;
+  margin: auto;
+  
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main img {
+  margin-bottom: 30px;
+}
+
+main article section {
+  overflow: auto;
+  height: 320px;
+}
+
+footer {
+  background-color: lightgrey;
+  height: 50px;
+}
